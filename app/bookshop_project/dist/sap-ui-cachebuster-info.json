@@ -1,0 +1,22 @@
+{
+  "model/models-dbg.js": 1737522944096,
+  "Component.js": 1737522944092,
+  "controller/HomePage.controller.js": 1737526901298,
+  "controller/App.controller.js": 1737522944096,
+  "manifest.json": 1737528067742,
+  "model/models.js": 1737522944096,
+  "i18n/i18n.properties": 1737522944092,
+  "model/models.js.map": 1737528067974,
+  "controller/HomePage-dbg.controller.js": 1737526901298,
+  "controller/HomePage.controller.js.map": 1737528067970,
+  "controller/App-dbg.controller.js": 1737522944096,
+  "controller/App.controller.js.map": 1737528067932,
+  "Component-dbg.js": 1737522944092,
+  "Component.js.map": 1737528067980,
+  "Component-preload.js": 1737528068046,
+  "Component-preload.js.map": 1737528068046,
+  "view/HomePage.view.xml": 1737526903762,
+  "view/App.view.xml": 1737522944100,
+  "css/style.css": 1737522944100,
+  "index.html": 1737522944092
+}

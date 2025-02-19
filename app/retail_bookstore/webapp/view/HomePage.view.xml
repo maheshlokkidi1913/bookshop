@@ -1,0 +1,48 @@
+<mvc:View controllerName="com.bookstore.retailbookstore.controller.HomePage"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+  
+  <VBox id="_IDGenVBox">
+    <Text id="_IDGenText1" text="Book Registration" class="header"/>
+
+    
+        <Label id="_IDGenLabel" text="Book Title"/>
+        <Input id="bookTitleInput" placeholder="Enter book title" />
+
+        <Label id="_IDGenLabel1" text="Author"/>
+        <Input id="bookAuthorInput" placeholder="Enter author name" />
+
+        <Label id="_IDGenLabel2" text="Publication Year"/>
+        <Input id="bookYearInput" placeholder="Enter year of publication" />
+
+        <Button id="_IDGenButton" text="Add Book" press="onAddBook" />
+     
+    <Table id="booksTable" items="{
+        path: '/books'
+      }">
+      <columns>
+        <Column id="_IDGenColumn">
+          <Text id="_IDGenText2" text="Title" />
+        </Column>
+        <Column id="_IDGenColumn1">
+          <Text id="_IDGenText3" text="Author" />
+        </Column>
+        <Column id="_IDGenColumn2">
+          <Text id="_IDGenText4" text="Year" />
+        </Column>
+      </columns>
+
+      <items>
+        <ColumnListItem id="_IDGenColumnListItem">
+          <cells>
+            <Text id="_IDGenText5" text="{title}" />
+            <Text id="_IDGenText6" text="{author}" />
+            <Text id="_IDGenText7" text="{year}" />
+          </cells>
+        </ColumnListItem>
+      </items>
+    </Table>
+  </VBox>
+</mvc:View>
