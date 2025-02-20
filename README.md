@@ -1,7 +1,7 @@
 # Getting Started /// adding contnet in Gihub
 /// ading content fdrom BAS CAP
 
-Welcome to your new project.
+Welcome to your new project. 
 
 It contains these folders and files, following our recommended project layout:
 
