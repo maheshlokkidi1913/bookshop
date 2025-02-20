@@ -1,5 +1,5 @@
 # Getting Started /// adding contnet in Gihub
-ytjhrt
+/// ading content fdrom BAS CAP
 
 Welcome to your new project.
 
